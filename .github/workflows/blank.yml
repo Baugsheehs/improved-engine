@@ -3,7 +3,7 @@ name: SETUP CD/CI
 on: [push]
 jobs:
   build:
-    name: setting build
+    name: setting buildl
     runs-on: ubuntu-18.04
     strategy:
       max-parallel: 20
